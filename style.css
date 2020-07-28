@@ -1,0 +1,94 @@
+* {
+  font-size: 18px;
+  font-family: "MS Serif";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+#container{
+  width: 84%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#slideContainer {  /*  スライド部分の表示の設定 */
+  max-width:800px;
+  margin: 2em auto;
+}
+
+header {
+   position:relative;
+   height: 8rem;
+   background: #003366;
+   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+ }
+
+  header h1{
+    letter-spacing: 5px;  /*  文字の間 */
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    font-size: 2rem;
+    color: white;
+ }
+
+nav {
+  letter-spacing: 2px;
+  padding: 1rem 1rem ;
+  float : right;
+
+  margin: 1rem;
+  position: relative;
+  top: 22%;
+
+
+}
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li{
+    margin-right: 2rem;
+  }
+  nav ul li a {
+    color: white;
+  }
+
+main{
+  display: flex;
+  flex-wrap：wrap;
+  justify-content:space-between;
+}
+
+  section{
+    flex: 5;
+    padding: 1rem;
+    background: #d9e3ee;
+  }
+
+    article{
+      min-height: 8rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #FFF;
+    }
+
+  aside{
+    flex: 1;
+    padding: 1rem;
+    background: white;
+  }
+
+footer {
+  padding: 1.5rem 3rem;
+  text-align: center;
+  background: #003366;
+  color: white;
+}
+
+/*   margin　境界線の外側の余白
+     border　境界線
+     padding　境界線の内側の余白
+     width, height　幅と高さ    */
